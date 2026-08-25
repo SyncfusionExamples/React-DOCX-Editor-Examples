@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@syncfusion/ej2-react-documenteditor": "^33.2.6",
+    "@syncfusion/ej2-react-documenteditor": "^34.2.4",
+    "@syncfusion/ej2-tailwind3-theme": "^34.2.4",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
