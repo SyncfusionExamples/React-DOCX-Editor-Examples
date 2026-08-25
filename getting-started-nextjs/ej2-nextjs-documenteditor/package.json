@@ -11,7 +11,7 @@
   "dependencies": {
     "@syncfusion/ej2-react-documenteditor": "^34.2.4",
     "@syncfusion/ej2-tailwind3-theme": "^34.2.4",
-    "next": "16.2.6",
+    "next": "16.2.11",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
