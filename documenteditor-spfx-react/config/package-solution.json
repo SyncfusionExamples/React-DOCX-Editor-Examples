@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "documenteditor-spfx-react-client-side-solution",
+    "id": "da0d2af9-37a6-4a01-8e26-a50db4d53dad",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "documenteditor-spfx-react description"
+      },
+      "longDescription": {
+        "default": "documenteditor-spfx-react description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "documenteditor-spfx-react Feature",
+        "description": "The feature that activates elements of the documenteditor-spfx-react solution.",
+        "id": "afede897-b873-4d0d-abd3-038640806ca1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/documenteditor-spfx-react.sppkg"
+  }
+}
