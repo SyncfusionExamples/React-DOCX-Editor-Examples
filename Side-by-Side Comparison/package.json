@@ -6,6 +6,7 @@
     "@syncfusion/ej2-react-buttons": "*",
     "@syncfusion/ej2-react-documenteditor": "*",
     "@syncfusion/ej2-react-inputs": "*",
+    "@syncfusion/ej2-tailwind3-theme": "*",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.126",
     "@types/react": "^19.1.8",
