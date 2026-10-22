@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.23.2",
+    "sdksVersions": {},
+    "version": "1.23.2",
+    "libraryName": "documenteditor-spfx-react",
+    "libraryId": "da0d2af9-37a6-4a01-8e26-a50db4d53dad",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "documenteditor-spfx-react",
+    "solutionShortDescription": "documenteditor-spfx-react description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
