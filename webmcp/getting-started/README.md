@@ -1,4 +1,4 @@
-# WebMCP Integration with Syncfusion React DOCX Editor
+# WebMCP Example - Syncfusion&reg; React DOCX Editor (Document Editor)
 
 ## Introduction
 
@@ -10,7 +10,6 @@ The sample enables WebMCP support in the `DocumentEditorContainerComponent`, ret
 
 - Integrates WebMCP with the Syncfusion React DOCX Editor.
 - Enables WebMCP tools using `enableWebMcp`.
-- Retrieves the WebMCP tools available from the document editor.
 
 ## WebMCP Tool Handling
 
@@ -19,33 +18,6 @@ The sample enables WebMCP using:
 ```jsx
 enableWebMcp={true}
 ```
-
-After the Document Editor is created, the available WebMCP tools are retrieved using:
-
-```javascript
-container.getWebMcpTools();
-```
-
-The sample also handles the `beforeWebMcpToolExecute` event to identify document-modifying operations.
-
-The following operations require user confirmation before execution:
-
-- `saveDocument`
-- `configureDocumentEditorSettings`
-- `replaceAll`
-- `insertText`
-- `paste`
-- `insertBookmark`
-- `enforceProtection`
-- `stopProtection`
-- `insertField`
-- `insertEditingRegion`
-- `formatCharacter`
-- `formatParagraph`
-- `insertImage`
-- `insertHyperlink`
-
-This provides an additional confirmation step before WebMCP tools perform potentially destructive or modifying operations on the document.
 
 ## How to Run the Sample
 
@@ -59,10 +31,6 @@ Make sure the following are installed:
 ### 1. Clone or download the sample
 
 Download or clone this repository and navigate to the project directory:
-
-```bash
-cd WebMCP-React-DOCX-Editor
-```
 
 ### 2. Install dependencies
 
