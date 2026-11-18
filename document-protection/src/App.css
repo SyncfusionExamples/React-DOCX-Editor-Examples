@@ -1,0 +1,86 @@
+.sample-header {
+  padding: 16px 24px 8px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.sample-header h1 {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.sample-header p {
+  margin: 0;
+  font-size: 13px;
+  color: #5f6b7a;
+}
+
+.sample-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.sample-toolbar label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.sample-toolbar select {
+  min-width: 160px;
+  height: 30px;
+  padding: 2px 6px;
+  border: 1px solid #c3cdd5;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.permission-banner {
+  font-size: 12px;
+  color: #5f6b7a;
+}
+
+.sample-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.editor-holder {
+  flex: 1;
+  min-width: 0;
+}
+
+.permission-holder {
+  flex: 1;
+  padding: 0;
+}
+
+.permission-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.permission-table th,
+.permission-table td {
+  padding: 6px 8px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.permission-table th {
+  background-color: #f4f5f7;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.permission-table td:nth-child(3) {
+  word-break: break-all;
+}
